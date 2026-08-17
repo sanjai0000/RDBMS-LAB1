@@ -1,13 +1,6 @@
--- Create Student table
-
--- StudentID
-
--- StudentName
-
--- DOB
-
--- Gender
-
--- DepartmentID
-
--- Add constraints
+USE COLLEGEDBBCA ;
+CREATE TABLE STUDENT1 (studentID INT (5) PRIMARY KEY , studentName
+  VARCHAR (20) NOT NULL , DOB DATE , GENDER VARCHAR(10),
+  department INT (5));
+  SELECT* FROM STUDENT;
+  DESC STUDENT;
